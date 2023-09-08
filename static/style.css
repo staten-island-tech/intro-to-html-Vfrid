@@ -1,0 +1,18 @@
+body {
+    background-color:darkolivegreen;
+}
+h1 {
+    color:bisque;
+}
+h2 {
+    color:antiquewhite;
+}
+h3{
+    color:antiquewhite;
+}
+
+.ordered_list {
+    color:burlywood;
+    font-weight: 700;
+    font-size: 18px;
+}
