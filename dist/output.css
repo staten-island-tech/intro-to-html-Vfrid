@@ -184,7 +184,7 @@ table {
 3. Remove default padding in all browsers.
 */
 
-button,
+
 input,
 optgroup,
 select,
@@ -213,10 +213,15 @@ textarea {
 Remove the inheritance of text transform in Edge and Firefox.
 */
 
-button,
-select {
-  text-transform: none;
-}
+button {
+  background-color:lightgoldenrodyellow;
+  border: none;
+  border-radius: 10px;
+  height: 45px;
+  width: 300px;
+  margin-left: 40px;
+  margin-top: 40px;
+  transition: all 200ms linear;}
 
 /*
 1. Correct the inability to style clickable types in iOS and Safari.
@@ -229,7 +234,7 @@ button,
 [type='submit'] {
   -webkit-appearance: button;
   /* 1 */
-  background-color: transparent;
+  /* background-color: transparent; */
   /* 2 */
   background-image: none;
   /* 2 */
@@ -337,11 +342,19 @@ legend {
   padding: 0;
 }
 
-ol,
-ul,
+ol{
+  color:burlywood;
+  font-weight: 702;
+  font-size: 20px;
+}
+ul{
+  color:burlywood;
+  font-weight: 702;
+  font-size: 20px;
+}
 menu {
   list-style: none;
-  margin: 0;
+  margin: 5px;
   padding: 0;
 }
 
@@ -564,13 +577,13 @@ h3{
   color:antiquewhite;
 }
 
-.ordered_list {
+ol {
   color:burlywood;
   font-weight: 702;
   font-size: 20px;
 }
 
-.unordered_list {
+ul {
   color:burlywood;
   font-weight: 702;
   font-size: 20px;
@@ -588,7 +601,7 @@ button{
   height: 45px;
   width: 300px;
   margin-left: 40px;
-  margin-top: -40px;
+  margin-top: 40px;
   transition: all 200ms linear;
 }
 
